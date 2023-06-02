@@ -1,7 +1,6 @@
 # Project
 
-This code base contains experiments for the paper 
-<Automatic Calibration and Error Correction for Large Language Models via Pareto Optimal Self-Supervision>
+This code base contains experiments for the paper "Automatic Calibration and Error Correction for Large Language Models via Pareto Optimal Self-Supervision"
 
 ### Dataset
 The experiments are tied to the WRENCH dataset https://github.com/JieyuZ2/wrench
