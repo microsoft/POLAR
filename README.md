@@ -18,8 +18,11 @@ rule_explanations.py contains functions to compile evidences from the supervisio
 
 ### Experiments and Results
 To reproduce the results in the paper. Follow the two steps:
+
     1. Run the script run_experiments.py. This performs all the necessary computations and GPT queries for analysis.
+    
     2. Run the notebook paper_results.ipynb. This notebook produces all the results in the paper.
+    
     3. Notebook tutorial.ipynb contains instruction using an example dataset.
 
 
