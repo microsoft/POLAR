@@ -10,10 +10,12 @@ It is recommended to save the data under the folder named 'wrench' in this direc
 
 ### Code Description
 pareto_learning.py implements Pareto optimal learning that trains harmonizer on multiple sources.
+
 nlp_models.py contains harmonizer models to be trained
+
 harmonizer_analysis.py performs harmonizer-based analysis (prediction, POLAR score calibration, source reweighting...)
-rule_explanations.py contains functions to compile evidences from the supervision functions to be used in dynamic self-supervision.
-                    Note that this ONLY works for the CDR dataset in WRENCH https://github.com/JieyuZ2/wrench
+
+rule_explanations.py contains functions to compile evidences from the supervision functions to be used in dynamic self-supervision. Note that this ONLY works for the CDR dataset in WRENCH https://github.com/JieyuZ2/wrench
 
 
 ### Experiments and Results
