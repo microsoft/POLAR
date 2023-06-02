@@ -13,13 +13,14 @@ pareto_learning.py implements Pareto optimal learning that trains harmonizer on 
 nlp_models.py contains harmonizer models to be trained
 harmonizer_analysis.py performs harmonizer-based analysis (prediction, POLAR score calibration, source reweighting...)
 rule_explanations.py contains functions to compile evidences from the supervision functions to be used in dynamic self-supervision.
-                    Note that this ONLY works for the CDR dataset.
+                    Note that this ONLY works for the CDR dataset in WRENCH https://github.com/JieyuZ2/wrench
 
 
 ### Experiments and Results
 To reproduce the results in the paper. Follow the two steps:
     1. Run the script run_experiments.py. This performs all the necessary computations and GPT queries for analysis.
     2. Run the notebook paper_results.ipynb. This notebook produces all the results in the paper.
+    3. Notebook tutorial.ipynb contains instruction using an example dataset.
 
 
 ### Paper Abstract
