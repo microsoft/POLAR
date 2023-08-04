@@ -170,7 +170,7 @@ def get_feature(name, raw_text_feature=False, datapath=os.path.join(PATH, 'wrenc
     L_llm = {fold:[] for fold in folds}
     
     if new_gpt_query:
-        # make completeley new queries
+        # make completely new queries
         fix = False
         followup = None
         
